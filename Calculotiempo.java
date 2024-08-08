@@ -27,12 +27,12 @@ public class Calculotiempo {
 
         /*Declaración de variables que contienen los procesos para poder calcular el tiempo del viaje*/
 
-        double tiempo = velocidad / distancia;
+        double tiempo = distancia/ velocidad;
 
         //Mostrar resultados.
 
         System.out.print("El tiempo que tardará la persona en llegar a su destino será de = ");
-        System.out.println(tiempo);
+        System.out.println(velocidad);
         System.out.print("horas");
         scan.close();
     }
