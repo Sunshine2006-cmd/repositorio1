@@ -27,7 +27,7 @@ public class Calculotiempo {
 
         /*Declaración de variables que contienen los procesos para poder calcular el tiempo del viaje*/
 
-        double tiempo = distancia / velocidad;
+        double tiempo = velocidad / distancia;
 
         //Mostrar resultados.
 
